@@ -265,3 +265,63 @@ h1 {
     transform: translateX(0);
   }
 }
+
+@media (max-width: 480px) {
+  #main-header {
+    padding: 1rem;
+  }
+  #main-title img {
+    width: 2.5rem;
+    margin-right: 0.8rem;
+  }
+  #main-title h1 {
+    width: 5rem;
+    font-size: 1rem;
+  }
+  #main-header button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+  }
+  #shop {
+    width: auto;
+    margin: 1rem 1.5rem;
+  }
+  #shop h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  #products {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+  .product-content h3 {
+    font-size: 1rem;
+  }
+  .product-price {
+    font-size: 0.9rem;
+  }
+  .product-description {
+    font-size: 0.9rem;
+  }
+  .product-actions {
+    margin: 0.5rem 0;
+  }
+  #modal {
+    width: 80%;
+  }
+  #modal h2 {
+    font-size: 1.1rem;
+  }
+  #cart-items li {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  #cart-total-price {
+    font-size: 0.9rem;
+  }
+  #modal form button {
+    font-size: 1rem;
+  }
+  #modal form button:last-of-type {
+    font-size: 0.9rem;
+  }
+}
